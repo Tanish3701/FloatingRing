@@ -6,7 +6,7 @@ Everything is a local system call, so it works **fully offline**. No network acc
 
 ![build](https://github.com/Tanish3701/FloatingRing/actions/workflows/build.yml/badge.svg)
 
-<!-- Add a screenshot or GIF here: ![demo](docs/demo.gif) -->
+   ![Floating Ring](docs/screenshot.png)
 
 ## Features
 
