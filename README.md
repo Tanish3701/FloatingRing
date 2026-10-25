@@ -4,7 +4,7 @@ A draggable floating button for Windows, inspired by iPhone AssistiveTouch and A
 
 Everything is a local system call, so it works **fully offline**. No network access, no telemetry, no accounts.
 
-![build](https://github.com/YOUR_USERNAME/FloatingRing/actions/workflows/build.yml/badge.svg)
+![build](https://github.com/Tanish3701/FloatingRing/actions/workflows/build.yml/badge.svg)
 
 <!-- Add a screenshot or GIF here: ![demo](docs/demo.gif) -->
 
