@@ -1,0 +1,19 @@
+<Window x:Class="FloatingRing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FloatingRing" Width="72" Height="72"
+        WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+        Topmost="True" ShowInTaskbar="False" ShowActivated="False"
+        ResizeMode="NoResize" Focusable="False">
+    <Grid x:Name="Root" Background="Transparent" Cursor="Hand"
+          MouseLeftButtonDown="Root_Down" MouseMove="Root_Move" MouseLeftButtonUp="Root_Up"
+          MouseEnter="Root_Enter" MouseLeave="Root_Leave">
+        <Ellipse Width="56" Height="56" Fill="#D91B1B22" Stroke="#44FFFFFF" StrokeThickness="1">
+            <Ellipse.Effect>
+                <DropShadowEffect BlurRadius="12" ShadowDepth="2" Opacity="0.5"/>
+            </Ellipse.Effect>
+        </Ellipse>
+        <Ellipse Width="36" Height="36" Stroke="#B3FFFFFF" StrokeThickness="3"/>
+        <Ellipse Width="16" Height="16" Fill="White"/>
+    </Grid>
+</Window>
